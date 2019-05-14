@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Тестовое задание</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main class="main">
+    <form class="search">
+      <div class="search__item">
+        <label for="searchText">Поиск:</label>
+        <input type="text" name="search__text" id="searchText" value='' >
+      </div>
+      <div class="search__item">
+        <input type="checkbox" id="searchCheckbox" class="search__checkbox">
+        <label for="searchCheckbox" class="search__checkbox-label">С учётом регистра</label>
+      </div>
+      <button type="button" class="search__item search__button" id="filterByNumber">Фильтр по длине слов</button>
+      <button type="button" class="search__item search__button" id="filterBySubstring">Фильтр по подстроке</button>
+    </form>
+    <div class="output">    
+      <div id="output"></div>
+    </div>
+  </main>
+  <script src="js/app.js"></script>
+</body>
+</html>
