@@ -13,10 +13,10 @@ function loadJson() {
     } else {
       try {
         const jsonData = JSON.parse(xhr.responseText).data;
-        const input = document.querySelector("#searchText");
-        const output = document.querySelector("#output");
-        const filterByNumber = document.querySelector("#filterByNumber");
-        const filterBySubstring = document.querySelector("#filterBySubstring");
+        const input = document.getElementById("searchText");
+        const output = document.getElementById("output");
+        const filterByNumber = document.getElementById("filterByNumber");
+        const filterBySubstring = document.getElementById("filterBySubstring");
         filterByNumber.addEventListener('click', function() {
           if(input.value === '') {
             validation(output);
