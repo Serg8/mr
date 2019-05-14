@@ -1,0 +1,26 @@
+{
+  "name": "mr",
+  "version": "1.0.0",
+  "description": "Сделать страницу, на которой будет: - поле для ввода; - checkbox; - две кнопки; - место для вывода данных. Одна кнопка - фильтр по длине слов, вторая кнопка - фильтр по подстроке. Checkbox отвечает за чувствительность регистра поиска. При вводе в поле числа и клике по кнопке фильтра по длине слов в место для вывода данных выводятся строки с длиной строки больше введенного числа. При вводе строки в поле и клике по кнопке фильтра по подстроке в место для вывода данных выводятся строки, которые содержат введенную подстроку. Если checkbox чувствительности регистра проставлен, строки сравниваются с учетом регистра (&#39;aAa&#39; не равно &#39;aaa&#39;). Если checkbox снят, строки сравниваются без учета регистра (&#39;aAa&#39; равно &#39;aaa&#39;). Данные берутся HTTP запросом по адресу http://www.mrsoft.by/data.json, из поля data полученного объекта. Файл со временем не меняется. Код желательно писать на native JavaScript (допускается как ES 5, так и ES 6/7).",
+  "main": "node_modules/eslint-config-airbnb-base/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Serg8/mr.git"
+  },
+  "author": "Sergey Kulchytski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Serg8/mr/issues"
+  },
+  "homepage": "https://github.com/Serg8/mr#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.17.2"
+  },
+  "dependencies": {}
+}
